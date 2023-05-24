@@ -1,0 +1,58 @@
+TYPESCRIPT
+typescript is javascript with syntax for types.
+made by MICROSOFT
+typescript mai phely type mention krny party ha.
+
+install typescript (npm i -g typescript)
+also install node js
+node app.js (short way to run typescript)
+typescript ko javascript ka superset b khety ha.
+jb hum simple html file mai kaam krty ha to humy ek index.html 
+or ek app.ts ki file banani hoti hai or index file mia humy src k andr app.js likhna hotaha.
+jb hum ts k file mai coding krty hai to cmd ma hum phely tsc app.ts ko run krty ha i us k bd node app.js ko run krty hai to resukt ata ha
+jb b hum ts ki file compile krty ha to kud he ek js ki file generate hojati ha.
+
+TYPES
+number
+string
+array[]
+boolean
+alias custom type banay k liye.
+INTERFACE
+Interface is similar to alias custom type , ya kesi obj ka shape jasa hota ha
+VOID 
+mtlb hai function  kuch b return nhe kr raha function.
+
+Extends
+ya kaam krta ha k jb humary pas 2 interfaces ho or us mai kuch data same repeat ho raha hai to hum dosry interface mai extends laga k
+phely interface ka data dosry interface mai kud ajata hai.
+MERGING
+2 interface ko merge krny k liye 
+const book : Book = {} is sy 2 Book k naam sy interface hongy us ko merge kr daiga.
+UNION
+union or ki tara kaam krty ha jesy humy pata nhe hota k is varible ka type string hoga ya number tb hum | ya sign lagty ha.
+ANY 
+any ka mtlb ha kuxh b type ho sakta ha jesy hum type ko ignore kr rahy ha.
+
+GENERIC
+waisy ya hota ha k jis type ka data hota ha wwahi type humy use krna hota ha lekin generic mai kuch or hota ha.
+is mai ya hota ha k jb humy type ka pata nhe hota k kya pas hoga to hum generic ka format use krty ha phr hm function ko kuch b pass kary
+wo us ko us type mai convert kr daita ha
+
+function AnyThing <T>(arg:T):T{
+
+return arg
+}
+
+AnyThing("hello") 
+
+Generics play an important role in TypeScript as it allows us to write reusable code that accepts both values and types as arguments.
+
+STRUCTURAL TYPING OR DUCK TYPING
+jb 2 obj k andr same properties or method hongi to wo us ko ek same type samjh ly ga.
+agr 2 obj ka shape same ha wo ek same type ka obj hai.
+
+REACT APP IN TYPESCRIPT
+NPX create-react-app my-app --template typescript
+
+
